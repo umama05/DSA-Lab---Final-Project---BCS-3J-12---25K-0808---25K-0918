@@ -140,3 +140,29 @@ public:
         head_ = tail_ = nullptr;
         size_ = 0;
     }
+
+ std::vector<T> toVector() const {
+        std::vector<T> out;
+        out.reserve(size_);
+        for (const Node* cur = head_; cur; cur = cur->next) out.push_back(cur->value);
+        return out;
+    }
+
+    iterator begin() { return iterator(head_); }
+    iterator end() { return iterator(nullptr); }
+    const_iterator begin() const { return const_iterator(head_); }
+    const_iterator end() const { return const_iterator(nullptr); }
+
+private:
+    void unlink(Node* prev, Node* cur) {
+        if (prev) prev->next = cur->next;
+        else head_ = cur->next;
+        if (cur == tail_) tail_ = prev;
+        delete cur;
+        --size_;
+    }
+
+    Node* head_ = nullptr;
+    Node* tail_ = nullptr;
+    std::size_t size_ = 0;
+};
