@@ -45,3 +45,35 @@ inline std::vector<std::string> tokenize(const std::string& s) {
     if (!cur.empty()) out.push_back(cur);
     return out;
 }
+
+// converts string to an integer
+inline int toIntOr(const std::string& s, int fallback) {
+    std::string t = trim(s);
+    if (t.empty()) return fallback;
+    char* end = nullptr;
+    errno = 0;
+    long v = std::strtol(t.c_str(), &end, 10);
+    if (end == t.c_str() || *end != '\0' || errno == ERANGE || v > INT_MAX || v < INT_MIN) return fallback;
+    return static_cast<int>(v);
+}
+
+// converts a string to a long long integer
+inline long long toLongLongOr(const std::string& s, long long fallback) {
+    std::string t = trim(s);
+    if (t.empty()) return fallback;
+    char* end = nullptr;
+    errno = 0;
+    long long v = std::strtoll(t.c_str(), &end, 10);
+    if (end == t.c_str() || *end != '\0' || errno == ERANGE) return fallback;
+    return v;
+}
+
+// converts a double value to a string with one decimal place
+inline std::string fmt1(double v) {
+    char buf[32];
+    std::snprintf(buf, sizeof buf, "%.1f", v);
+    return buf;
+}
+
+} 
+
