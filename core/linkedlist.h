@@ -60,3 +60,83 @@ public:
         }
         return *this;
     }
+
+
+    void pushBack(const T& value) {
+        Node* n = new Node(value);
+        if (tail_) tail_->next = n;
+        else head_ = n;
+        tail_ = n;
+        ++size_;
+    }
+
+    void pushFront(const T& value) {
+        Node* n = new Node(value);
+        n->next = head_;
+        head_ = n;
+        if (!tail_) tail_ = n;
+        ++size_;
+    }
+
+    bool popFront(T* out = nullptr) {
+        if (!head_) return false;
+        Node* n = head_;
+        if (out) *out = n->value;
+        head_ = n->next;
+        if (!head_) tail_ = nullptr;
+        delete n;
+        --size_;
+        return true;
+    }
+
+    // removes the first node equal to `value`
+    bool remove(const T& value) {
+        Node* prev = nullptr;
+        for (Node* cur = head_; cur; prev = cur, cur = cur->next) {
+            if (cur->value == value) {
+                unlink(prev, cur);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // removes every node for which pred(value) is true
+    template <typename Pred>
+    std::size_t removeIf(Pred pred) {
+        std::size_t removed = 0;
+        Node* prev = nullptr;
+        Node* cur = head_;
+        while (cur) {
+            Node* next = cur->next;
+            if (pred(cur->value)) {
+                unlink(prev, cur);
+                ++removed;
+            }
+            else {
+                prev = cur;
+            }
+            cur = next;
+        }
+        return removed;
+    }
+
+    bool contains(const T& value) const {
+        for (const Node* cur = head_; cur; cur = cur->next)
+            if (cur->value == value) return true;
+        return false;
+    }
+
+    std::size_t size() const { return size_; }
+    bool empty() const { return size_ == 0; }
+
+    void clear() {
+        Node* cur = head_;
+        while (cur) {
+            Node* next = cur->next;
+            delete cur;
+            cur = next;
+        }
+        head_ = tail_ = nullptr;
+        size_ = 0;
+    }
