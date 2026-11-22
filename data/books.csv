@@ -1,0 +1,60 @@
+id,title,author,genre,year,pages,description
+1,The Hobbit,J.R.R. Tolkien,Fantasy,1937,310,A comfort-loving hobbit is swept into a dwarf expedition to reclaim a mountain treasure guarded by a dragon.
+2,The Fellowship of the Ring,J.R.R. Tolkien,Fantasy,1954,423,A small group sets out to carry a dangerous ring across Middle-earth and destroy it before darkness spreads.
+3,A Wizard of Earthsea,Ursula K. Le Guin,Fantasy,1968,183,A gifted young mage releases a shadow into the world and must hunt it across an archipelago of islands.
+4,The Name of the Wind,Patrick Rothfuss,Fantasy,2007,662,An innkeeper with a hidden past begins telling the true story of how he became a legend.
+5,Harry Potter and the Philosopher's Stone,J.K. Rowling,Fantasy,1997,223,An orphan discovers he is a wizard and starts his first year at a school of magic.
+6,"The Lion, the Witch and the Wardrobe",C.S. Lewis,Fantasy,1950,208,Four siblings step through a wardrobe into a snowbound land ruled by a wicked queen.
+7,Mistborn: The Final Empire,Brandon Sanderson,Fantasy,2006,541,A street thief with a rare gift joins a crew plotting to overthrow an immortal tyrant.
+8,Circe,Madeline Miller,Fantasy,2018,393,The exiled daughter of a Titan hones her witchcraft on a lonely island and crosses paths with famous heroes.
+9,Dune,Frank Herbert,Science Fiction,1965,412,A noble family takes charge of a desert planet whose spice is the most valuable substance in the universe.
+10,The Martian,Andy Weir,Science Fiction,2011,369,"Stranded alone on Mars, an astronaut uses engineering and humor to stay alive until rescue."
+11,Ender's Game,Orson Scott Card,Science Fiction,1985,324,A gifted child is trained in an orbiting battle school to lead humanity against an alien threat.
+12,Foundation,Isaac Asimov,Science Fiction,1951,255,A mathematician predicts the fall of a galactic empire and sets up a plan to shorten the dark age that follows.
+13,Neuromancer,William Gibson,Science Fiction,1984,271,A washed-up hacker is hired for one last job that drags him through cyberspace and corporate intrigue.
+14,The Left Hand of Darkness,Ursula K. Le Guin,Science Fiction,1969,304,An envoy on an icy world struggles to understand a society with no fixed gender.
+15,Project Hail Mary,Andy Weir,Science Fiction,2021,476,A lone astronaut wakes with no memory aboard a spaceship and slowly uncovers a mission to save Earth.
+16,The Hitchhiker's Guide to the Galaxy,Douglas Adams,Science Fiction,1979,224,"Moments before Earth is demolished, an ordinary man is whisked into space for a wildly absurd road trip."
+17,1984,George Orwell,Dystopian,1949,328,"In a state of constant surveillance, a low-level clerk secretly begins to question the Party."
+18,Brave New World,Aldous Huxley,Dystopian,1932,288,An engineered society trades freedom for comfort until one outsider refuses to fit in.
+19,The Handmaid's Tale,Margaret Atwood,Dystopian,1985,311,"In a theocratic regime, a woman assigned as a handmaid recalls her old life while planning to survive."
+20,Fahrenheit 451,Ray Bradbury,Dystopian,1953,249,A fireman whose job is to burn books starts to wonder what he has been destroying.
+21,The Hunger Games,Suzanne Collins,Dystopian,2008,374,A teenager volunteers to take her sister's place in a televised fight to the death.
+22,And Then There Were None,Agatha Christie,Mystery,1939,272,Ten strangers on an isolated island are accused of past crimes and picked off one by one.
+23,The Hound of the Baskervilles,Arthur Conan Doyle,Mystery,1902,256,Sherlock Holmes investigates a family curse involving a spectral hound on the moors.
+24,Murder on the Orient Express,Agatha Christie,Mystery,1934,256,A famous detective must solve a murder aboard a snowbound luxury train full of suspects.
+25,The Girl with the Dragon Tattoo,Stieg Larsson,Thriller,2005,465,A journalist and an unconventional hacker dig into a decades-old disappearance inside a powerful family.
+26,Gone Girl,Gillian Flynn,Thriller,2012,415,"When his wife vanishes on their anniversary, a husband becomes the prime suspect in a twisting case."
+27,The Da Vinci Code,Dan Brown,Thriller,2003,454,"A symbologist races across Europe, decoding clues tied to a centuries-old secret."
+28,The Silence of the Lambs,Thomas Harris,Thriller,1988,338,A young FBI trainee seeks help from an imprisoned psychiatrist to catch another killer.
+29,Pride and Prejudice,Jane Austen,Romance,1813,279,Elizabeth Bennet and the proud Mr. Darcy must overcome first impressions and family pressure.
+30,The Notebook,Nicholas Sparks,Romance,1996,214,"An elderly man reads from a worn notebook, recounting a summer romance that never faded."
+31,Me Before You,Jojo Moyes,Romance,2012,369,A cheerful young woman becomes caregiver to a man who has lost his zest for life.
+32,Beach Read,Emily Henry,Romance,2020,361,Two rival authors swap genres for a summer and find the writing exchange is turning into something more.
+33,Jane Eyre,Charlotte Brontë,Classics,1847,500,An orphaned governess finds love and a dark secret at a brooding country manor.
+34,To Kill a Mockingbird,Harper Lee,Classics,1960,324,A young girl in the American South watches her father defend a man in a deeply unjust trial.
+35,The Great Gatsby,F. Scott Fitzgerald,Classics,1925,180,A mysterious millionaire throws lavish parties in pursuit of a love from his past.
+36,Wuthering Heights,Emily Brontë,Classics,1847,416,A stormy bond between Heathcliff and Catherine echoes across two generations on the Yorkshire moors.
+37,Crime and Punishment,Fyodor Dostoevsky,Classics,1866,545,A struggling student commits a crime and is consumed by guilt as a detective closes in.
+38,The Book Thief,Markus Zusak,Historical Fiction,2005,552,"Narrated by Death, the story follows a girl who steals books in Nazi Germany."
+39,All the Light We Cannot See,Anthony Doerr,Historical Fiction,2014,531,A blind French girl and a German radio-obsessed boy move toward each other during World War II.
+40,The Kite Runner,Khaled Hosseini,Historical Fiction,2003,371,A man from Kabul is haunted by a childhood betrayal and returns to try to make amends.
+41,The Pillars of the Earth,Ken Follett,Historical Fiction,1989,973,"Builders, nobles and monks clash over the construction of a cathedral in medieval England."
+42,Sapiens,Yuval Noah Harari,Non-Fiction,2011,443,"A sweeping tour of human history, from early foragers to modern societies."
+43,Educated,Tara Westover,Non-Fiction,2018,334,A memoir of a girl raised off the grid who teaches herself enough to reach university.
+44,A Brief History of Time,Stephen Hawking,Non-Fiction,1988,212,"A physicist explains black holes, the Big Bang and the nature of time for general readers."
+45,The Diary of a Young Girl,Anne Frank,Non-Fiction,1947,283,A teenage girl records daily life while hiding with her family during the Second World War.
+46,Man's Search for Meaning,Viktor E. Frankl,Non-Fiction,1946,165,A psychiatrist reflects on surviving concentration camps and finding purpose in suffering.
+47,Atomic Habits,James Clear,Self-Help,2018,320,A practical system for building tiny routines that compound into big long-term change.
+48,The Power of Now,Eckhart Tolle,Self-Help,1997,236,A guide to quieting the mind by living in the present moment.
+49,Deep Work,Cal Newport,Self-Help,2016,296,"Argues that focused, distraction-free effort is becoming rare and valuable, and shows how to cultivate it."
+50,Dracula,Bram Stoker,Horror,1897,418,A solicitor's trip to Transylvania unleashes an ancient vampire on Victorian England.
+51,Frankenstein,Mary Shelley,Horror,1818,280,A scientist brings a creature to life and then flees from the consequences.
+52,The Shining,Stephen King,Horror,1977,447,A struggling writer takes a winter caretaker job at an isolated hotel that slowly unravels his family.
+53,It,Stephen King,Horror,1986,1138,A group of childhood friends reunite to face the shape-shifting evil that haunted their hometown.
+54,The Fault in Our Stars,John Green,Young Adult,2012,313,"Two teenagers meet in a cancer support group and fall into a funny, heartbreaking romance."
+55,Percy Jackson: The Lightning Thief,Rick Riordan,Young Adult,2005,377,A boy learns he is the son of a Greek god and is accused of stealing Zeus's lightning bolt.
+56,The Perks of Being a Wallflower,Stephen Chbosky,Young Adult,1999,213,A shy freshman tells his story through letters as he finds friends and faces painful memories.
+
+
+
