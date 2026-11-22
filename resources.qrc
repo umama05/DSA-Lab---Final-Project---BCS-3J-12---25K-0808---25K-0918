@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="style.qss">resources/style.qss</file>
+        <file alias="chevron-down.png">resources/chevron-down.png</file>
+        <file alias="chevron-down@2x.png">resources/chevron-down@2x.png</file>
+        <file alias="data/books.csv">data/books.csv</file>
+        <file alias="data/demo_userdata.csv">data/demo_userdata.csv</file>
+    </qresource>
+</RCC>
