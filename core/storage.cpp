@@ -90,10 +90,12 @@ std::string userDataToText(const Library& lib) {
 
     for (Shelf s : {Shelf::WantToRead, Shelf::CurrentlyReading, Shelf::Read})
         for (const Book* b : lib.shelf(s)) writeBook(b);
-.
+    
     for (const Book* b : lib.allBooks())
         if (b->shelf == Shelf::None && !b->review.empty()) writeBook(b);
     return out;
 }
+
+
 
 
