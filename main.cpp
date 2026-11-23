@@ -1,5 +1,4 @@
-//  main.cpp  -  program entry point.
-.
+//  main.cpp  -  program entry point
 
 #include <QApplication>
 #include <QFile>
@@ -10,13 +9,14 @@
 
 int main(int argc, char* argv[]) {
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);  // Qt 6 does this automatically
+    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);  
     QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
 #endif
 
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("BookVerse"));
     QCoreApplication::setApplicationName(QStringLiteral("BookVerse"));
+
 
     app.setStyle(QStyleFactory::create(QStringLiteral("Fusion")));
     QFont font(QStringLiteral("Segoe UI"), 10);
@@ -30,5 +30,3 @@ int main(int argc, char* argv[]) {
     window.show();
     return app.exec();
 }
-
-
