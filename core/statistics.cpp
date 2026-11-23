@@ -1,16 +1,17 @@
 #include "statistics.h"
+
 #include "sorting.h"
 
 namespace {
-void bump(std::vector<std::pair<std::string, int>>& counts, const std::string& genre) {
-    for (auto& entry : counts)
-        if (entry.first == genre) {
-            ++entry.second;
-            return;
-        }
-    counts.emplace_back(genre, 1);
-}
-}  
+    void bump(std::vector<std::pair<std::string, int>>& counts, const std::string& genre) {
+        for (auto& entry : counts)
+            if (entry.first == genre) {
+                ++entry.second;
+                return;
+            }
+        counts.emplace_back(genre, 1);
+    }
+}  // namespace
 
 LibraryStats computeStats(const Library& lib) {
     LibraryStats s;
@@ -42,9 +43,10 @@ LibraryStats computeStats(const Library& lib) {
     mergeSort(s.genreCounts, [](const std::pair<std::string, int>& a, const std::pair<std::string, int>& b) {
         if (a.second != b.second) return a.second > b.second;
         return a.first < b.first;
-    });
+        });
     if (!s.genreCounts.empty()) s.favoriteGenre = s.genreCounts.front().first;
     return s;
 }
+
 
 
